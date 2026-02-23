@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Desa Digital - Smart Village</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/dist/css/style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigasi -->
+    <header>
+      <div class="navbar">
+        <a href="#" class="logo">
+          <i class="fa-solid fa-tree"></i> Desa Batupapan
+        </a>
+
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li><a href="#layanan" class="nav-link">Layanan Digital</a></li>
+          <li><a href="#potensi" class="nav-link">Potensi Desa</a></li>
+          <li><a href="#berita" class="nav-link">Berita</a></li>
+          <li>
+            <a
+              href="#kontak"
+              class="nav-link"
+              style="color: var(--primary); font-weight: 700"
+              >Hubungi Kami</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- 1. HERO SLIDER (GESER GAMBAR) -->
+      <section id="beranda" class="hero-slider">
+        <div class="slider-wrapper" id="sliderWrapper">
+          <!-- Slide 1 -->
+          <div class="slide">
+            <img
+              src="https://picsum.photos/seed/village1/1920/1080"
+              alt="Pemandangan Desa"
+            />
+            <div class="slide-content">
+              <h1>Selamat Datang di Desa Batupapan</h1>
+              <p>
+                Mewujudkan masyarakat yang mandiri, sejahtera, dan berbasis
+                teknologi.
+              </p>
+              <a href="#layanan" class="btn-hero">Jelajahi Layanan</a>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+            <img
+              src="https://picsum.photos/seed/techvillage/1920/1080"
+              alt="Teknologi Desa"
+            />
+            <div class="slide-content">
+              <h1>Sistem Pelayanan Digital</h1>
+              <p>
+                Urus administrasi kependudukan kini bisa dilakukan dari rumah
+                secara online.
+              </p>
+              <a href="#layanan" class="btn-hero">Layanan Online</a>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="slide">
+            <img
+              src="https://picsum.photos/seed/farmview/1920/1080"
+              alt="Pertanian Desa"
+            />
+            <div class="slide-content">
+              <h1>Potensi Pertanian Modern</h1>
+              <p>
+                Pengembangan sektor pertanian dengan metode smart farming yang
+                inovatif.
+              </p>
+              <a href="#potensi" class="btn-hero">Lihat Potensi</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tombol Navigasi Slider -->
+        <button class="slider-btn prev-btn" id="prevBtn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="slider-btn next-btn" id="nextBtn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <!-- Titik Indikator (Dots) -->
+        <div class="slider-dots" id="dotsContainer"></div>
+      </section>
+
+      <!-- 2. PROFIL PEMERINTAH DESA (BARU) -->
+      <section id="pemerintahan">
+        <div class="section-title">
+          <h2>Pemerintah Desa</h2>
+          <div class="line"></div>
+          <p class="section-desc">
+            Mengenal jajaran perangkat desa yang siap melayani masyarakat dengan
+            sepenuh hati.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <!-- Kepala Desa -->
+          <div class="gov-card">
+            <div class="gov-img">
+              <img
+                src="https://picsum.photos/seed/man1/400/500"
+                alt="Kepala Desa"
+              />
+            </div>
+            <div class="gov-info">
+              <h3>H. Ahmad Fauzi</h3>
+              <span>Kepala Desa</span>
+            </div>
+          </div>
+
+          <!-- Sekretaris Desa -->
+          <div class="gov-card">
+            <div class="gov-img">
+              <img
+                src="https://picsum.photos/seed/woman1/400/500"
+                alt="Sekretaris Desa"
+              />
+            </div>
+            <div class="gov-info">
+              <h3>Siti Aminah, S.Pd</h3>
+              <span>Sekretaris Desa</span>
+            </div>
+          </div>
+
+          <!-- Kaur Keuangan -->
+          <div class="gov-card">
+            <div class="gov-img">
+              <img
+                src="https://picsum.photos/seed/man2/400/500"
+                alt="Kaur Keuangan"
+              />
+            </div>
+            <div class="gov-info">
+              <h3>Budi Santoso</h3>
+              <span>Kaur Keuangan</span>
+            </div>
+          </div>
+
+          <!-- Kasi Pelayanan -->
+          <div class="gov-card">
+            <div class="gov-img">
+              <img
+                src="https://picsum.photos/seed/woman2/400/500"
+                alt="Kasi Pelayanan"
+              />
+            </div>
+            <div class="gov-info">
+              <h3>Rina Wati, A.Md</h3>
+              <span>Kasi Pelayanan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. LAYANAN DIGITAL -->
+      <section class="layanan" id="layanan">
+        <div class="section-title">
+          <h2>Layanan Digital</h2>
+          <div class="line"></div>
+          <p style="margin-top: 10px; color: var(--text-gray)">
+            Kemudahan akses pelayanan publik bagi warga desa.
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-id-card"></i></div>
+            <h3>Administrasi KTP & KK</h3>
+            <p style="margin-top: 10px; color: var(--text-gray)">
+              Pengajuan dokumen kependudukan secara online tanpa harus datang ke
+              kantor.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-comments-dollar"></i>
+            </div>
+            <h3>Pembayaran Pajak</h3>
+            <p style="margin-top: 10px; color: var(--text-gray)">
+              Platform pembayaran PBB dan retribusi desa yang transparan.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3>Lapor Warga</h3>
+            <p style="margin-top: 10px; color: var(--text-gray)">
+              Saluran pengaduan masyarakat untuk fasilitas umum dan keamanan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. POTENSI DESA -->
+      <section id="potensi" style="background-color: #eef2ff">
+        <div class="section-title">
+          <h2>Potensi Unggulan</h2>
+          <div class="line"></div>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <img
+              src="https://picsum.photos/seed/tourism/400/250"
+              style="border-radius: 8px; margin-bottom: 20px"
+              alt="Wisata"
+            />
+            <h3>Wisata Alam Bukit Hijau</h3>
+            <p style="margin-top: 10px; color: var(--text-gray)">
+              Destinasi wisata alam dengan pemandangan pegunungan yang memukau.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://picsum.photos/seed/craft/400/250"
+              style="border-radius: 8px; margin-bottom: 20px"
+              alt="Kerajinan"
+            />
+            <h3>Kerajinan Bambu</h3>
+            <p style="margin-top: 10px; color: var(--text-gray)">
+              Produk kerajinan tangan khas desa yang telah menembus pasar
+              ekspor.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://picsum.photos/seed/coffee/400/250"
+              style="border-radius: 8px; margin-bottom: 20px"
+              alt="Kopi"
+            />
+            <h3>Kopi Robusta Desa</h3>
+            <p style="margin-top: 10px; color: var(--text-gray)">
+              Perkebunan kopi rakyat dengan kualitas terbaik dan aroma yang
+              khas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. BERITA TERBARU -->
+      <section id="berita">
+        <div class="section-title">
+          <h2>Kabar Desa</h2>
+          <div class="line"></div>
+        </div>
+        <div class="grid-3">
+          <article class="card" style="text-align: left">
+            <small style="color: var(--primary); font-weight: bold"
+              >20 Oktober 2023</small
+            >
+            <h3 style="margin: 10px 0">Panen Raya Padi Metode Modern</h3>
+            <p style="color: var(--text-gray)">
+              Kelompok tani sukses melakukan panen raya dengan menggunakan
+              teknologi drone...
+            </p>
+          </article>
+          <article class="card" style="text-align: left">
+            <small style="color: var(--primary); font-weight: bold"
+              >18 Oktober 2023</small
+            >
+            <h3 style="margin: 10px 0">Pelatihan Digital Marketing UMKM</h3>
+            <p style="color: var(--text-gray)">
+              Pemerintah desa mengadakan pelatihan untuk membantu warga
+              memasarkan produk...
+            </p>
+          </article>
+          <article class="card" style="text-align: left">
+            <small style="color: var(--primary); font-weight: bold"
+              >15 Oktober 2023</small
+            >
+            <h3 style="margin: 10px 0">Pembangunan Jalan Desa</h3>
+            <p style="color: var(--text-gray)">
+              Perbaikan infrastruktur jalan utama desa telah dimulai untuk akses
+              yang lebih baik...
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- KONTAK / FOOTER -->
+      <section
+        id="kontak"
+        style="padding: 0; max-width: 100%; background: var(--dark)"
+      >
+        <footer>
+          <div class="grid-3" style="text-align: center; color: #cbd5e1">
+            <div>
+              <h3 style="color: white; margin-bottom: 20px">Tentang Kami</h3>
+              <p style="text-align: justify">
+                Desa Batupapan adalah contoh implementasi Smart Village yang
+                mengintegrasikan teknologi dalam tata kelola pemerintahan dan
+                pemberdayaan masyarakat.
+              </p>
+            </div>
+            <div>
+              <h3 style="color: white; margin-bottom: 20px">Kontak</h3>
+              <div style="text-align: center">
+                <p>
+                  <i class="fa-solid fa-map-marker-alt"></i> Jl. Raya Desa No. 1
+                </p>
+                <p><i class="fa-solid fa-phone"></i> (021) 123-4567</p>
+                <p><i class="fa-solid fa-envelope"></i> admin@desamaju.id</p>
+              </div>
+            </div>
+            <div>
+              <h3 style="color: white; margin-bottom: 20px">Sosial Media</h3>
+              <div
+                style="
+                  display: flex;
+                  gap: 15px;
+                  font-size: 1.5rem;
+                  justify-self: center;
+                "
+              >
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              margin-top: 50px;
+              border-top: 1px solid #334155;
+              padding-top: 20px;
+            "
+          >
+            <p>&copy; 2023 Pemerintah Desa Batupapan. All Rights Reserved.</p>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+      // 1. SLIDER LOGIC (Geser Gambar Otomatis)
+      const sliderWrapper = document.getElementById("sliderWrapper");
+      const slides = document.querySelectorAll(".slide");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const dotsContainer = document.getElementById("dotsContainer");
+
+      let currentIndex = 0;
+      const totalSlides = slides.length;
+      let slideInterval;
+
+      // Buat titik-titik navigasi (dots)
+      slides.forEach((_, index) => {
+        const dot = document.createElement("div");
+        dot.classList.add("dot");
+        if (index === 0) dot.classList.add("active");
+        dot.addEventListener("click", () => goToSlide(index));
+        dotsContainer.appendChild(dot);
+      });
+
+      const dots = document.querySelectorAll(".dot");
+
+      // Fungsi pindah slide
+      function goToSlide(index) {
+        currentIndex = index;
+        // Geser wrapper menggunakan CSS Transform
+        sliderWrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        // Update aktif pada dots
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[currentIndex].classList.add("active");
+      }
+
+      // Tombol Next
+      function nextSlide() {
+        let nextIndex = (currentIndex + 1) % totalSlides;
+        goToSlide(nextIndex);
+      }
+
+      // Tombol Previous
+      function prevSlide() {
+        let prevIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        goToSlide(prevIndex);
+      }
+
+      // Event Listeners untuk tombol panah
+      nextBtn.addEventListener("click", () => {
+        nextSlide();
+        resetTimer();
+      });
+
+      prevBtn.addEventListener("click", () => {
+        prevSlide();
+        resetTimer();
+      });
+
+      // Fungsi Auto Play (Berulang)
+      function startTimer() {
+        slideInterval = setInterval(nextSlide, 5000); // Ganti setiap 5 detik
+      }
+
+      function resetTimer() {
+        clearInterval(slideInterval);
+        startTimer();
+      }
+
+      // Mulai slider saat halaman dimuat
+      startTimer();
+
+      // 2. MOBILE MENU RESPONSIVE
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("navMenu");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      // Buka/Tutup menu
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+
+        // Ubah icon hamburger jadi X
+        const icon = hamburger.querySelector("i");
+        if (navMenu.classList.contains("active")) {
+          icon.classList.remove("fa-bars");
+          icon.classList.add("fa-times");
+        } else {
+          icon.classList.remove("fa-times");
+          icon.classList.add("fa-bars");
+        }
+      });
+
+      // Tutup menu saat salah satu link diklik (Agar responsif pindah)
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+          const icon = hamburger.querySelector("i");
+          icon.classList.remove("fa-times");
+          icon.classList.add("fa-bars");
+        });
+      });
+
+      // 3. Navbar Effect on Scroll
+      window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        if (window.scrollY > 50) {
+          header.style.boxShadow = "0 5px 20px rgba(0,0,0,0.1)";
+          header.style.padding = "5px 0"; // Mengecil sedikit
+        } else {
+          header.style.boxShadow = "0 2px 10px rgba(0,0,0,0.1)";
+          header.style.padding = "15px 0";
+        }
+      });
+    </script>
+  </body>
+</html>
